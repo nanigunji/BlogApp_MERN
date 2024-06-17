@@ -76,7 +76,6 @@ function Header() {
                   onClick={signout}
                 >
                    <span className="lead  fs-4 me-3 fw-1"  style={{ color: "#dfd3e3"}}>{currentUser.username}
-                   <sup style={{color:'#dfd3e3',fontSize:'1rem'}}>({currentUser.userType})</sup>
                    </span>
                   Signout
                 </NavLink>

@@ -1,0 +1,26 @@
+.articleHome{
+    text-align: center;
+}
+.articleHome .artcleImage{
+   
+    max-width: 500px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.articleHome h1{
+   
+    color: var(--light-olive);
+    padding: 20px;
+}
+.articleHome p{
+    max-width: 900px;
+    margin: auto;
+    padding: 30px 20px;
+}
+.blog{
+    background: linear-gradient(to right,#c0b6e5,#292d9a,rgb(104, 12, 104)); 
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+}
